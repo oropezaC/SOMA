@@ -1,0 +1,50 @@
+<div class="col-md-12">
+  <h1>Baja de Grupo Masivo</h1>
+  <div class="row">
+    <div class="col-md-6">
+      <h3>Lineas Correctas</h3>
+      <table class="w3-table w3-bordered">
+        <thead class="w3-light-grey">
+            <th>línea</th>
+              <th>Region</th>
+              <th>ciclo</th>
+              <th>Comentario</th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let line of lines">
+            <td>{{line.linea}}</td>
+            <td>{{line.region}}</td>
+            <td>{{line.ciclo}}</td>
+            <td>{{line.comentario}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-6">
+      <h3>Lineas Incorrectas</h3>
+      <table class="w3-table w3-bordered">
+        <thead class="w3-light-grey">
+            <th>línea</th>
+              <th>Region</th>
+              <th>ciclo</th>
+              <th>Comentario</th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let line of lines">
+            <td>{{line.linea}}</td>
+            <td>{{line.region}}</td>
+            <td>{{line.ciclo}}</td>
+            <td>{{line.comentario}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div style="margin-top:40%;margin-left:40%;">
+
+    <button class="w3-button w3-small w3-border w3-round">Exportar</button>
+    <button class="w3-button w3-small w3-blue w3-round">Enviar</button>
+  </div>
+
+  </div>
+
+</div>

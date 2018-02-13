@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+.blue{
+  /* background-color: #0B4DA2; */
+  background-color: #FFFFFF;
+  height: 60px;
+  margin-top: 0px;
+  padding-right: 1000px;
+  color:#0B4DA2
+}
+
+.lado{
+  margin-top: -20px;
+}
+
+.imagen{
+  margin-top: -102px;
+  margin-left: 1080px;
+}
+.principal{
+width: 980px;
+height: 100%;
+margin: auto;
+
+}
